@@ -1,2 +1,1 @@
-# Austera-template
- Austera Template
+# [Austera Template]()
