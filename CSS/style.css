@@ -1,0 +1,824 @@
+/* .box{
+    min-height: 200px;
+    background: rgba(255, 0, 255, 0.466);
+}
+div{
+    border: 1px solid black;
+    padding: 10px;
+} */
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0px -15px;
+}
+.container-fluid {
+  padding: 0px;
+}
+/* Первый блок */
+
+header {
+  height: 967px;
+  background-image: url(../img/back-header.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 0 -15px;
+}
+header div.menu {
+  height: 134px;
+  background: rgba(0, 0, 0, 0.4);
+}
+header div.menu a img {
+  display: block;
+  padding-top: 50px;
+  padding-left: 100px;
+}
+header nav ul {
+  list-style-type: none;
+  padding-right: 50px;
+  margin-top: -4px;
+}
+header nav ul li {
+  display: inline-block;
+  margin-right: 50px;
+}
+header nav ul li a {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+header nav ul li a:hover {
+  color: #39b9ef;
+  text-decoration: underline;
+}
+header div.coll-to h1 {
+  margin-top: 250px;
+  margin-bottom: 0;
+  text-align: center;
+  color: #fff;
+  font-size: 72px;
+  font-weight: bold;
+}
+header div.coll-to h1 span {
+  color: #2ebaee;
+}
+header div.coll-to p {
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 20px;
+}
+header div.coll-to a {
+  display: block;
+  width: 215px;
+  height: 50px;
+  background: #2ebaee;
+  color: #fff;
+  border-radius: 24px;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+}
+header div.coll-to a:hover {
+  background: #ffffff;
+  color: #2ebaee;
+}
+
+/*******************************************
+************** Our services  ***************
+*******************************************/
+div.back-services {
+  background-image: url(../img/back-services.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+section.our-services {
+  padding-bottom: 60px;
+}
+section.our-services h2 {
+  color: #242424;
+  font-size: 48px;
+  margin-top: 70px;
+  text-align: center;
+  border-bottom: 1px solid #e7e7e7;
+  padding-bottom: 80px;
+}
+section.our-services div.services div {
+  padding-top: 80px;
+}
+section.our-services div.services div img {
+  display: block;
+  margin-bottom: 50px;
+  margin: 0 auto;
+  padding-bottom: 54px;
+}
+div.services div h3 {
+  color: #242424;
+  font-size: 24px;
+  margin-bottom: 34px;
+  font-style: bold;
+  text-align: center;
+}
+div.services div p.our-serv {
+  color: #878787;
+  font-size: 16px;
+  line-height: 24px;
+  max-width: 520px;
+  text-align: center;
+}
+div.services-2 p,
+div.services-3 p {
+  color: #878787;
+  font-size: 16px;
+  line-height: 24px;
+  max-width: 520px;
+}
+div.services div.buttom a {
+  margin-top: 65px;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  border-radius: 24px;
+  background: #2ebaee;
+  height: 45px;
+  width: 150px;
+  font-size: 16px;
+  color: #fff;
+  line-height: 44px;
+  margin: 65px auto;
+  border: 1px solid #fff;
+}
+div.services div.buttom a:hover,
+div.services-2 div a:hover {
+  color: #2ebaee;
+  background: #ffffff;
+  border: 1px solid #2ebaee;
+}
+div.services-2 {
+  margin-top: 180px;
+}
+div.services-2 h3 {
+  color: #242424;
+  font-size: 24px;
+  margin-top: 100px;
+}
+div.services-2 div a {
+  margin-top: 65px;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  border-radius: 24px;
+  background: #2ebaee;
+  height: 45px;
+  width: 150px;
+  font-size: 16px;
+  color: #fff;
+  line-height: 44px;
+  margin-top: 50px;
+}
+div.services-3 {
+  margin-top: 240px;
+}
+div.services-3 div.serv-3 {
+  padding-left: 100px;
+}
+div.services-3 h3 {
+  color: #fff;
+  font-size: 36px;
+  margin-top: 100px;
+}
+div.services-3 p {
+  color: #fff;
+  font-size: 16px;
+}
+div.services-3 a {
+  margin-top: 65px;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  border-radius: 24px;
+  background: #fff;
+  height: 45px;
+  width: 150px;
+  font-size: 16px;
+  color: #2ebaee;
+  line-height: 44px;
+  margin-top: 50px;
+}
+div.services-3 a:hover {
+  color: #ffffff;
+  background: #2ebaee;
+  border: 1px solid #ffffff;
+}
+/*******************************************
+************** Section  man ****************
+*******************************************/
+section.man {
+  max-height: 660px;
+  padding: 0;
+}
+section.man div img {
+  max-width: 100%;
+  min-width: 100%;
+}
+section.man div h3 {
+  font-size: 72px;
+  color: #000000;
+  max-width: 600px;
+  margin-left: 75px;
+  margin-top: 130px;
+}
+section.man div p {
+  color: #878787;
+  font-size: 16px;
+  max-width: 600px;
+  margin-left: 75px;
+}
+section.man div a {
+  margin-top: 65px;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  border-radius: 24px;
+  background: #2ebaee;
+  height: 45px;
+  width: 150px;
+  font-size: 16px;
+  color: #fff;
+  line-height: 44px;
+  margin-top: 50px;
+  margin-left: 75px;
+}
+section.man div a:hover {
+  color: #2ebaee;
+  background: #ffffff;
+  border: 1px solid #2ebaee;
+}
+/*******************************************
+************** Section next-man ************
+*******************************************/
+section.next-man {
+  min-height: 430px;
+}
+section.next-man div.block-1 {
+  background-image: url(../img/71.png);
+  min-height: 430px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+section.next-man div.block-2 {
+  background-image: url(../img/76.png);
+  min-height: 430px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+section.next-man div.block-3 {
+  background-image: url(../img/Noutbook3.png);
+  min-height: 430px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+section.next-man div.block-4 {
+  background-image: url(../img/Tetrad.png);
+  min-height: 430px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+section.next-man h4 {
+  color: #fff;
+  font-size: 48px;
+  font-weight: bold;
+  height: 100%;
+  width: 108%;
+  background: rgba(0, 0, 0, 0.7);
+  margin: 0;
+  padding: 140px 65px 0 65px;
+  margin-left: -12px;
+}
+section.next-man h4:hover {
+  color: #fff;
+  font-size: 48px;
+  font-weight: bold;
+  height: 100%;
+  width: 109%;
+  background: rgba(57, 157, 195, 0.7);
+  margin: 0;
+  margin-left: -12px;
+  padding: 140px 65px 0 65px;
+}
+/********************************************
+*********** Section Check Awesome ***********
+********************************************/
+section.check-our {
+  height: 850px;
+}
+section.check-our h2 {
+  color: #2ebaee;
+  font-size: 72px;
+}
+section.check-our span {
+  color: #000000;
+}
+section.check-our img {
+  display: block;
+  margin: 0 auto;
+  width: 234px;
+  height: 234px;
+  margin-top: 32px;
+}
+section.check-our div.name {
+  color: #242424;
+  text-align: center;
+  font-size: 34px;
+  margin: 30px;
+}
+section.check-our div.awesome span {
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  color: #878787;
+  margin-top: 15px;
+}
+section.check-our div.awesome a {
+  margin-top: 65px;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  border-radius: 24px;
+  background: #2ebaee;
+  height: 45px;
+  width: 150px;
+  font-size: 16px;
+  color: #fff;
+  line-height: 44px;
+  margin: 30px auto;
+}
+section.check-our div.awesome a:hover {
+  color: #2ebaee;
+  background: #ffffff;
+  border: 1px solid #2ebaee;
+}
+/********************************************
+***************** Footer ********************
+********************************************/
+section.footer {
+  background-image: url(../img/footer.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 724px;
+}
+section.footer div.contact {
+  color: #fff;
+  font-size: 72px;
+  font-weight: bold;
+  margin-top: 110px;
+}
+section.footer p.adress {
+  font-size: 18px;
+  color: #878787;
+  margin-top: 30px;
+}
+section.footer p {
+  color: #878787;
+  font-size: 32px;
+  margin: 24px 0 0 0;
+}
+section.footer p span {
+  color: #2ebaee;
+}
+section.footer ul {
+  list-style-type: none;
+  margin-top: 70px;
+  padding: 0;
+}
+section.footer ul li {
+  display: inline-block;
+  width: 55px;
+  height: 55px;
+  border-radius: 27px;
+  margin-right: 37px;
+}
+section.footer ul li.twit {
+  background: #55acee;
+  padding: 16px 18px;
+}
+section.footer ul li.face {
+  background: #3b5998;
+  padding: 16px 24px;
+}
+section.footer ul li.pin {
+  background: #cc2127;
+  padding: 16px 21px;
+}
+section.footer ul li.google {
+  background: #dd4b39;
+  padding: 16px 20px;
+}
+section.footer ul li.email {
+  background: #e23047;
+  padding: 15px 18px;
+}
+section.footer ul li:hover {
+  background: rgba(130, 130, 130, 0.6);
+  cursor: pointer;
+}
+section.footer input[type="text"],
+section.footer input[type="email"] {
+  width: 635px;
+  height: 60px;
+  background: none;
+  border-radius: 6px;
+  border: 1px solid #535353;
+  color: #fff;
+  font-size: 17px;
+  padding-left: 30px;
+  margin: 20px auto;
+}
+section.footer input[type="text"]:hover,
+section.footer input[type="email"]:hover,
+section.footer textarea:hover {
+  border: 1px solid #2ebaee;
+}
+section.footer input[type="text"] {
+  margin-top: 126px;
+}
+section.footer textarea {
+  height: 200px;
+  width: 635px;
+  background: none;
+  border-radius: 6px;
+  border: 1px solid #535353;
+  color: #fff;
+  font-size: 17px;
+  padding: 30px;
+  margin: 20px auto;
+  resize: none; /* запрещает маштабирование  */
+}
+section.footer button {
+  margin-top: 65px;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  border-radius: 24px;
+  background: #2ebaee;
+  height: 45px;
+  width: 150px;
+  font-size: 16px;
+  color: #fff;
+  line-height: 44px;
+  margin: 30px auto;
+  border: none;
+}
+section.footer button:hover {
+  color: #2ebaee;
+  background: #ffffff;
+}
+footer {
+  height: 135px;
+  background: #000000;
+}
+footer p,
+footer ul {
+  list-style-type: none;
+  margin-top: 56px;
+  padding: 0;
+  color: #fff;
+}
+footer ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+footer ul li a {
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+}
+footer ul li a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+/********************************************
+***************** Адаптивность **************
+********************************************/
+
+.img-adaptive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 575.98px) {
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  body {
+    margin: 0px -15px;
+  }
+  header {
+    height: 560px;
+  }
+  header div.coll-to h1 {
+    margin-top: 30px;
+    font-size: 50px;
+  }
+  header div.coll-to p {
+    font-size: 20px;
+    margin: 30px 0;
+  }
+  section.our-services div.services div {
+    padding-top: 0;
+  }
+  div.services-2 h3 {
+    margin-top: 0;
+  }
+  div.services-2 div a {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    border-radius: 24px;
+    background: #fff;
+    height: 45px;
+    width: 150px;
+    font-size: 16px;
+    color: #2ebaee;
+    line-height: 44px;
+    margin-top: 50px;
+  }
+  div.services-2 div a:hover {
+    background: #2ebaee;
+    color: #fff;
+    border: 1px solid #fff;
+  }
+  div.services-3 {
+    margin-top: 40px;
+  }
+  div.services-3 h3 {
+    margin-top: 0;
+  }
+  div.services-3 div.serv-3 {
+    padding-left: 20px;
+  }
+  section.man {
+    height: 400px;
+  }
+  section.man div h3 {
+    font-size: 26px;
+    width: 90%;
+    margin: 10px auto;
+  }
+  section.next-man h4 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: bold;
+    height: 100%;
+    width: 107%;
+    background: rgba(0, 0, 0, 0.7);
+    margin: 0;
+    padding: 120px 65px 0 65px;
+    margin-left: -12px;
+    text-align: center;
+  }
+  section.man div p {
+    margin-left: 20px;
+  }
+  section.next-man h4:hover {
+    color: #fff;
+    font-size: 36px;
+    font-weight: bold;
+    height: 100%;
+    width: 107%;
+    margin: 0;
+    padding: 120px 65px 0 65px;
+    margin-left: -12px;
+    text-align: center;
+  }
+  section.check-our h2 {
+    font-size: 48px;
+    text-align: center;
+  }
+  section.check-our {
+    height: 1150px;
+  }
+  section.footer {
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 724px;
+  }
+  section.footer div.contact {
+    font-size: 48px;
+    margin-top: 35px;
+    text-align: center;
+  }
+  section.footer p.adress {
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  section.footer p {
+    font-size: 24px;
+    margin: 14px;
+    text-align: center;
+  }
+  section.footer ul {
+    list-style-type: none;
+    margin: 0 0 0 17%;
+    padding: 20px;
+  }
+  section.footer ul li {
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    border-radius: 27px;
+  }
+  section.footer input[type="text"] {
+    margin-top: 10px;
+  }
+  section.footer textarea {
+    height: 100px;
+    width: 635px;
+    background: none;
+    border-radius: 6px;
+    border: 1px solid #535353;
+    color: #fff;
+    font-size: 17px;
+    padding: 30px;
+    margin: 10px auto;
+    margin-bottom: 0;
+    resize: none;
+  }
+  section.footer button {
+    margin-top: 65px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    border-radius: 24px;
+    background: #2ebaee;
+    height: 45px;
+    width: 150px;
+    font-size: 16px;
+    color: #fff;
+    line-height: 44px;
+    margin: 5px auto;
+    border: none;
+  }
+  footer p {
+    padding: 0 10px;
+    text-align: right;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  body {
+    margin: 0px -15px;
+  }
+  header nav ul li {
+    margin-right: 18px;
+  }
+  header nav ul {
+    margin-top: -4px;
+  }
+  header div.coll-to h1 {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+  }
+  div.services div p {
+    padding-right: 10px;
+    text-align: center;
+  }
+  div.services div h3 {
+    padding-right: 10px;
+    text-align: center;
+  }
+  div.services div img {
+    display: block;
+    margin: 0 auto;
+  }
+  div.services-2 h3,
+  div.services-3 div h3 {
+    margin: 0;
+  }
+  section.man div p {
+    margin-left: 20px;
+  }
+  div.services div.buttom a {
+    border: 1px solid #fff;
+  }
+  section.man div h3 {
+    margin: 0;
+    font-size: 36px;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  section.man {
+    height: auto;
+  }
+  div.section-3 {
+    margin-top: 20px;
+  }
+  div.services-2 div a.buttom {
+    border: 1px solid #fff;
+  }
+  section.next-man h4 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+    height: 100%;
+    width: 109%;
+    background: rgba(0, 0, 0, 0.7);
+    margin: 0;
+    padding: 140px 65px 0 65px;
+    margin-left: -12px;
+  }
+  section.next-man h4:hover {
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+    height: 100%;
+    width: 109%;
+    margin: 0;
+    padding: 140px 65px 0 65px;
+    margin-left: -12px;
+  }
+  section.check-our h2 {
+    font-size: 48px;
+    text-align: center;
+  }
+  section.check-our img {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    margin-top: 32px;
+  }
+  section.check-our div.name {
+    font-size: 24px;
+  }
+  section.check-our {
+    height: auto;
+  }
+  section.footer div.contact {
+    font-size: 36px;
+  }
+  section.footer p.adress {
+    font-size: 14px;
+  }
+  section.footer p {
+    font-size: 24px;
+  }
+
+  section.footer input[type="text"],
+  section.footer input[type="email"] {
+    width: 400px;
+  }
+  section.footer textarea {
+    width: 400px;
+  }
+  section.footer ul li {
+    margin-right: 10px;
+  }
+  section.footer {
+    height: auto;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1409.98px) {
+  body {
+    margin: 0px -15px;
+  }
+  header div.coll-to h1 {
+    width: 90%;
+    margin: 250px auto;
+    margin-bottom: 0;
+  }
+  div.services div p.our-serv {
+    padding-right: 10px;
+  }
+  section.our-services div.serv-4 img {
+    max-width: 110%;
+    height: 100%;
+    display: block;
+  }
+  section.next-man h4 {
+    font-size: 36px;
+  }
+  section.next-man h4:hover {
+    font-size: 36px;
+  }
+  section.check-our h2 {
+    text-align: center;
+  }
+  section.footer input[type="text"],
+  section.footer input[type="email"] {
+    width: 400px;
+  }
+  section.footer textarea {
+    width: 400px;
+  }
+}
